@@ -11,9 +11,6 @@
     }
 
     // Set multiple cookies
-    setCookie("testCookie1", "testValue1", 1);
-    setCookie("testCookie2", "testValue2", 1);
-    setCookie("testCookie3", "testValue3", 1);
-    
-    document.cookie = "testCookie=testValue; path=/; max-age=36400";
+    setCookie("bm_mi", "testValue1", 1);
+    setCookie("burst_uid", "testValue2", 1);
 })();
